@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CodeYard</string>
+    <string name="user_name_label">%s %s</string>
+    <string name="user_address_label">%s, %s %d</string>
+    <string name="today_label">Today</string>
+    <string name="error_message_label">Something went wrong, please try again!</string>
+    <string name="pending_functionality">Pending functionality!</string>
+    <string name="search_label">Search</string>
+    <string name="dot_label">Vertical</string>
+    <string name="work_label">Work</string>
+    <string name="home_label">Home</string>
+    <string name="mobile_label">Mobile</string>
+</resources>
