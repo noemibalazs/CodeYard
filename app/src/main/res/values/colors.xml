@@ -11,6 +11,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="light_grey">#6c6c74</color>
+    <color name="lighter_grey">#D4D4D4</color>
 
     <color name="light_blue">#1e69ff</color>
     <color name="dark_blue">#0047AB</color>
