@@ -12,7 +12,7 @@ import androidx.core.view.MenuProvider
 import androidx.core.view.isVisible
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Lifecycle
-import com.example.codeyard.cntactdetails.ContactDetailsActivity
+import com.example.codeyard.contactdetails.ContactDetailsActivity
 import com.example.codeyard.R
 import com.example.codeyard.User
 import com.example.codeyard.databinding.ActivityContactListBinding

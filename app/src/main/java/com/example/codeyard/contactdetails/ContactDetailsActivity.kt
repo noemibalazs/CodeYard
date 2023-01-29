@@ -1,4 +1,4 @@
-package com.example.codeyard.cntactdetails
+package com.example.codeyard.contactdetails
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -34,10 +34,9 @@ class ContactDetailsActivity @Inject constructor() : AppCompatActivity(), MenuPr
     }
 
     private fun populateUI(user: User) {
-        println("User: $user")
         binding.apply {
             Glide.with(this@ContactDetailsActivity)
-                .load(user.picture.medium)
+                .load(user.picture.large)
                 .into(userPicture)
 
             userName.text =

@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
-        tools:context=".cntactdetails.ContactDetailsActivity">
+        tools:context=".contactdetails.ContactDetailsActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/pictureContainer"
@@ -22,7 +22,7 @@
                 android:id="@+id/userPicture"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:scaleType="fitXY"
+                android:scaleType="centerCrop"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
